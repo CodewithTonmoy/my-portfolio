@@ -8,11 +8,15 @@ h1 {
     font-size: 50px;
 }
 
-.vio-color {
-    color: blueviolet;
+h2 {
+    font-size: 40px;
 }
 
-section {
+.vio-color {
+    color: skyblue;
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 180px;
 }
@@ -51,4 +55,43 @@ section {
 
 .adjust-pos {
     padding-left: 3%;
+}
+
+.make-shadow {
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 36px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+
+.Experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+
+
+
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#junior-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 600;
+    color: blueviolet;
 }
